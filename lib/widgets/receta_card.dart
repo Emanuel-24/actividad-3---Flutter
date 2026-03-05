@@ -17,7 +17,8 @@ class RecetaCard extends StatelessWidget {
           Expanded(
             flex: 2,
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+              
+              crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisAlignment: MainAxisAlignment.center,
               children: const [
                 Text(
@@ -28,13 +29,14 @@ class RecetaCard extends StatelessWidget {
                   ),
                 ),
                 SizedBox(height: 12),
+                
                 Text(
                   'Pavlova is a meringue-based dessert named after the Russian '
                   'ballerina Anna Pavlova. Pavlova features a crisp crust and soft, '
                   'light inside, topped with fruit and whipped cream. lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula,' 
                   'nisi a fringilla cursus, nisl erat efficitur nisi, at convallis enim ligula in nunc'
                   'lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula,',
-                  
+                  textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 14,
                     color: Colors.black87,
